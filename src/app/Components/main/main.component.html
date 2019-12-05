@@ -14,44 +14,47 @@
       <div class="sidebar-sticky">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html"></a>
+            <a class="nav-link active" href="index.html">
             About Us <span class="sr-only">(current)</span>
+            </a>
 
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="clients.html" >
+            <a routerLink="/clients" >
               Client
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="newClient.html">
+            <a routerLink="/newClient.html">
               New Client
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="reporting.html">
+            <a routerLink="/reporting.html">
               Reporting
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="project.html">
+            <a routerLink="/Project.html">
               Project
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link " href="newproject.html">
+            <a routerLink="newproject.html">
               New project
             </a>
           </li>
         </ul>
       </div>
     </nav>
+    </div>
+  </div>
 
-    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+  <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4"></main>
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">About Us</h1>
         <div class="btn-toolbar mb-2 mb-md-0">
-          <a href="#">/home</a>
+          <a href="#">Home</a>
         </div>
       </div>
 
@@ -61,8 +64,8 @@
             <h1>Welcome To Turntabl Client Management System</h1>
 
             <p>
-              <a href="clients.html" class="btn btn-success my-2">Clients</a>
-              <a href="projects.html" class="btn btn-secondary my-2">Projects</a>
+              <a routerLink="/clients.html" class="btn btn-success my-2">Clients</a>
+              <a routerLink="projects.html" class="btn btn-secondary my-2">Projects</a>
             </p>
           </div>
         </section>
@@ -73,16 +76,19 @@
                 <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
                   <div class="d-flex justify-content-between align-items-center w-100">
                     <strong class="text-gray-dark">Clients Details</strong>
-                    <a href="clients_details.html#3">Info</a>
+                    <a routerLink="/clients_details.html#3">Info</a>
                   </div>
                 </div>
               </div>
 
               <small class="d-block text-right mt-3">
-                <a href="clients.html">All Clients</a>
+                <a routerLink="/clients.html">All Clients</a>
               </small>
             </div>
-          </div>
+
+                  
+          
+
 
 
           <div class="col-sm">
@@ -93,7 +99,7 @@
                 <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
                   <div class="d-flex justify-content-between align-items-center w-100">
                     <strong class="text-gray-dark">Project Management System </strong>
-                    <a href="projects_details.html#1">Info</a>
+                    <a routerLink="/projects_details.html#1">Info</a>
                   </div>
                 </div>
               </div>
@@ -102,17 +108,20 @@
                 <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-pink">
                   <div class="d-flex justify-content-between align-items-center w-100">
                     <strong class="text-gray-dark">H2 Database</strong>
-                    <a href="projects_details.html#3">Info</a>
+                    <a routerLink="/projects_details.html#3">Info</a>
                   </div>
                 </div>
               </div>
               <small class="d-block text-right mt-3">
-                <a href="projects.html">All projects</a>
+                <a routerLink="/projects.html">All projects</a>
               </small>
             </div>
           </div>
 
           <div class="col-sm">
+            <div class="my-3 p-3 bg-white rounded shadow-sm">
+
+            <div class="col-sm">
             <div class="my-3 p-3 bg-white rounded shadow-sm">
 
 
@@ -132,7 +141,6 @@
         </footer>
       </div>
 
-    </main>
+
   </div>
 </div>
-
